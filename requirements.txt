@@ -1,0 +1,54 @@
+# Core Dependencies
+langchain>=0.1.0
+chromadb>=0.4.22
+ollama>=0.1.6
+python-dotenv==1.0.0
+pyyaml==6.0.1
+
+# Data Processing & OCR
+pdfplumber>=0.10.3
+unstructured>=0.10.30
+pytesseract>=0.3.10
+textract>=1.6.5
+face-recognition>=1.3.0
+deepface>=0.0.79
+
+# Email Processing
+imaplib2>=3.6
+mailbox>=0.4
+
+# Social Media APIs
+tweepy==4.14.0
+facebook-sdk==3.1.0
+instaloader>=4.10.0
+
+# Vector Storage & Search
+sentence-transformers==2.2.2
+faiss-cpu>=1.7.4
+
+# Web Framework (Optional)
+streamlit>=1.31.0
+fastapi==0.109.2
+uvicorn==0.27.1
+websockets==12.0
+python-multipart==0.0.6
+
+# Utilities
+watchdog==3.0.0
+schedule>=1.2.1
+python-magic>=0.4.27
+
+# Integration dependencies
+smbprotocol==1.10.0
+python-imap==0.1.0
+
+# Testing
+pytest==8.0.0
+pytest-asyncio==0.23.5
+pytest-cov==4.1.0
+
+# Development
+black==24.1.1
+isort==5.13.2
+flake8==7.0.0
+mypy==1.8.0 
